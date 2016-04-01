@@ -25,7 +25,7 @@ class TracksController < ApplicationController
   # POST /tracks.json
   def create
     @track = Track.new(track_params)
-
+    
     respond_to do |format|
       if @track.save
         format.html { redirect_to @track, notice: 'Track was successfully created.' }
