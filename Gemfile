@@ -47,3 +47,6 @@ end
 
  #Gema de spotify music
 gem 'rspotify'
+
+  #Gema para autenticacion
+gem 'devise'
