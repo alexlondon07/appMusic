@@ -45,3 +45,5 @@ group :development do
   gem 'spring'
 end
 
+ #Gema de spotify music
+gem 'rspotify'

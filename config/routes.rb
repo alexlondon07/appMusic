@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'spotify/search'
+
   resources :playlists
   resources :tracks
   # The priority is based upon order of creation: first created -> highest priority.
